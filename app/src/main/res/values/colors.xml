@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9905F5</color>
+    <color name="colorPrimaryDark">#9905F5</color>
+    <color name="colorAccent">#AD08F7</color>
+    <color name="warnaFav">#FF0000</color>
+    <color name="warnaKu">#C46A6A</color>
+    <color name="warnaAhha">#06CBEE</color>
+</resources>

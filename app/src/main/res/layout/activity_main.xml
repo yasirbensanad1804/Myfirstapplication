@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvPanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="panjang"
+        android:textSize="20sp" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/etPanjang"
+        android:text="2"
+        android:textSize="29sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvLebar"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lebar" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/etLebar"
+        android:text="3"
+        android:textSize="29sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tinggi"
+        android:textSize="20sp" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/etTinggi"
+        android:text="4"
+        android:textSize="29sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hitung"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="24.0"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
