@@ -6,3 +6,4 @@ edittext
 button
 binding view / findViewByid()
 Mengambil nilai dari editText ==> editText.getText()>toString());
+https://imgur.com/MhZXw44
